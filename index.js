@@ -10,8 +10,9 @@ function printString(myString) {
 }
 
 function reverseString(string) {
+  console.log 
   let mySubString;
   if (string.length > 0) {
-    mySubString.push(string[:-1])
+    mySubString = string.substring(-1)
   }
 }
