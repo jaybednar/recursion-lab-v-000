@@ -9,4 +9,9 @@ function printString(myString) {
   }
 }
 
-
+function reverseString(string) {
+  let mySubString;
+  if (string.length > 0) {
+    mySubString.push(string[:-1])
+  }
+}
